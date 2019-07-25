@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Acpica Source">
+      <UniqueIdentifier>{3ec4fb47-a801-46e7-b28f-fa58f68a037c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Acpica Source\Utilities">
+      <UniqueIdentifier>{c7090adf-7cf0-4bc4-9dd2-0ad04af24def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Common">
+      <UniqueIdentifier>{bfa5baca-fd9c-405c-9ca9-1bc7acefcb0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AcpiXtract Headers">
+      <UniqueIdentifier>{9a796ee9-24cb-429c-ac07-3796206dbe2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AcpiXtract Source">
+      <UniqueIdentifier>{b8ab3181-7d26-44ba-aff8-9f573b36bec8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\components\utilities\utascii.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utdebug.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utexcep.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utglobal.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\uthex.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utmath.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utnonansi.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utxferror.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\getopt.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\os_specific\service_layers\oswinxf.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\AcpiXtract\acpixtract.c">
+      <Filter>AcpiXtract Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpixtract\axmain.c">
+      <Filter>AcpiXtract Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpixtract\axutils.c">
+      <Filter>AcpiXtract Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\tools\acpixtract\acpixtract.h">
+      <Filter>AcpiXtract Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

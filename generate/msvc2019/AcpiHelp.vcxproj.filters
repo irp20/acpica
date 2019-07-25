@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Acpica Source">
+      <UniqueIdentifier>{74dc2d42-2b75-4286-871b-5e64a18f8f4c}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Acpica Source\Common">
+      <UniqueIdentifier>{a9faf7b2-3a28-4388-92c6-fa3dc5e6f97b}</UniqueIdentifier>
+      <Extensions>.c</Extensions>
+    </Filter>
+    <Filter Include="Acpica Source\Utilities">
+      <UniqueIdentifier>{46c968b4-db85-4bdb-91a0-31570f7470f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AcpiHelp Headers">
+      <UniqueIdentifier>{62fa730b-7d3c-4fbb-b3d1-a1e77cd5840c}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Acpica Headers">
+      <UniqueIdentifier>{9dfc3382-03a0-4936-95f6-8c0a7e27bf57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AcpiHelp Source">
+      <UniqueIdentifier>{81edab21-892b-4929-97c6-773f2951c812}</UniqueIdentifier>
+      <Extensions>.c</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\common\ahids.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\ahpredef.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\ahtable.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\ahuuids.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\getopt.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\os_specific\service_layers\oswinxf.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utexcep.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utdebug.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utglobal.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\uthex.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utmath.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utnonansi.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utpredef.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utuuid.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpihelp\ahaml.c">
+      <Filter>AcpiHelp Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpihelp\ahamlops.c">
+      <Filter>AcpiHelp Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpihelp\ahasl.c">
+      <Filter>AcpiHelp Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpihelp\ahaslkey.c">
+      <Filter>AcpiHelp Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpihelp\ahaslops.c">
+      <Filter>AcpiHelp Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpihelp\ahdecode.c">
+      <Filter>AcpiHelp Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpihelp\ahgrammar.c">
+      <Filter>AcpiHelp Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpihelp\ahmain.c">
+      <Filter>AcpiHelp Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\tools\acpihelp\acpihelp.h">
+      <Filter>AcpiHelp Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\source\include\acuuid.h">
+      <Filter>Acpica Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

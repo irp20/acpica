@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AcpiBin Headers">
+      <UniqueIdentifier>{384f57b6-1eab-409e-be5b-59055afcf11d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="AcpiBin Source">
+      <UniqueIdentifier>{f44e14b7-ec4c-4cdd-b715-4865d9fae979}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source">
+      <UniqueIdentifier>{b5da3f67-d25d-4e9e-aa79-e91543c03b5e}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Acpica Source\Common">
+      <UniqueIdentifier>{51c72867-3c80-45f9-9dd8-cc03a54bcaf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Utilities">
+      <UniqueIdentifier>{a5158eb9-9c62-4d81-8952-e4413dc9c912}</UniqueIdentifier>
+      <Extensions>.c</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\tools\AcpiBin\acpibin.h">
+      <Filter>AcpiBin Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\tools\AcpiBin\abcompare.c">
+      <Filter>AcpiBin Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\AcpiBin\abmain.c">
+      <Filter>AcpiBin Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\cmfsize.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\getopt.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\os_specific\service_layers\oswinxf.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utalloc.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utascii.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utbuffer.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utcache.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utdebug.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utdecode.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utexcep.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utglobal.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utlock.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\COMPONENTS\utilities\utmath.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utmisc.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utmutex.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utstate.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utstring.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utxferror.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

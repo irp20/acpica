@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Acpica Source">
+      <UniqueIdentifier>{c5692069-1e0c-4a2e-987f-bf3c34f67d75}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Acpica Source\Common">
+      <UniqueIdentifier>{a93eb73a-b348-451b-9629-1cf7569e1d4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Utilities">
+      <UniqueIdentifier>{80348fec-6ece-48d8-93ec-25cb57c62261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Tables">
+      <UniqueIdentifier>{0e7eeb1b-6cef-4064-8036-67b1e841524a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Namespace">
+      <UniqueIdentifier>{2097a9c9-6dca-493c-9575-30e6e192873e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Parser">
+      <UniqueIdentifier>{b0c87324-ad6d-4841-8ce8-3b259368cf7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Debugger">
+      <UniqueIdentifier>{3fce5ce7-4e6e-4ec3-89a0-b122a98fc48d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Dispatcher">
+      <UniqueIdentifier>{0b03286a-d1d1-4eb1-ba6d-6a76248f1564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Interpreter">
+      <UniqueIdentifier>{7626d13d-be66-406c-adc3-071329ec2037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AcpiNames Headers">
+      <UniqueIdentifier>{6d43d320-c9fc-417d-8ef8-e9dba47f7bd6}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="AcpiNames Source">
+      <UniqueIdentifier>{3dff2f99-1c2c-4bf8-83de-21bf9480e5d4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\common\acfileio.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\cmfsize.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\common\getopt.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\os_specific\service_layers\oswinxf.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utaddress.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utalloc.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utascii.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utbuffer.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utcache.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utdebug.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utdecode.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utdelete.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\uterror.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\uteval.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utexcep.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utglobal.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\uthex.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utids.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utinit.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utlock.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utmath.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utmisc.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utmutex.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utnonansi.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utobject.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utosi.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utownerid.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utstate.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utstring.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utxface.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utxferror.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utxfinit.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbdata.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbfadt.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbfind.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbinstal.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbprint.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbutils.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbxface.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbxfload.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbxfroot.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsaccess.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsalloc.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsdump.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsinit.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsload.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsnames.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsobject.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsparse.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nssearch.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsutils.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nswalk.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsxfeval.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsxfname.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\namespace\nsxfobj.c">
+      <Filter>Acpica Source\Namespace</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psargs.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psloop.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psobject.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psopcode.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psopinfo.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psparse.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psscope.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\pstree.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psutils.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\pswalk.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\parser\psxface.c">
+      <Filter>Acpica Source\Parser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\debugger\dbfileio.c">
+      <Filter>Acpica Source\Debugger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dsfield.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dsinit.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dsmthdat.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dsobject.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dspkginit.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dsutils.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dswload.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dswload2.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dswscope.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\dispatcher\dswstate.c">
+      <Filter>Acpica Source\Dispatcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\excreate.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exdump.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exmutex.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exnames.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exprep.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exresnte.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exresolv.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exsystem.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\executer\exutils.c">
+      <Filter>Acpica Source\Interpreter</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\AcpiNames\anmain.c">
+      <Filter>AcpiNames Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\AcpiNames\anstubs.c">
+      <Filter>AcpiNames Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\AcpiNames\antables.c">
+      <Filter>AcpiNames Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\tools\acpinames\acpinames.h">
+      <Filter>AcpiNames Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

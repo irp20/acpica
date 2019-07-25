@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="AcpiDump Headers">
+      <UniqueIdentifier>{e1ddcea9-418e-498d-aa48-d6de5b0fdd6e}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Acpica Source">
+      <UniqueIdentifier>{90994be0-4acf-4b6f-bac1-910d94a0d457}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Acpica Source\Common">
+      <UniqueIdentifier>{48abdcce-853f-456c-9e1e-7e97d4075c31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Acpica Source\Utilities">
+      <UniqueIdentifier>{80137a28-4889-4692-aac5-a0c4108c5c04}</UniqueIdentifier>
+      <Extensions>.c</Extensions>
+    </Filter>
+    <Filter Include="Acpica Source\Tables">
+      <UniqueIdentifier>{1832ae58-9102-4fce-91bd-56d786828ae7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AcpiDump Source">
+      <UniqueIdentifier>{d84cff82-ebb1-41b8-87d6-7ddee8ec90d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\source\tools\acpidump\acpidump.h">
+      <Filter>AcpiDump Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\source\common\cmfsize.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\Common\getopt.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\os_specific\service_layers\oswintbl.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\os_specific\service_layers\oswinxf.c">
+      <Filter>Acpica Source\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utascii.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utbuffer.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utdebug.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utexcep.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utglobal.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\uthex.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utmath.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utnonansi.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utstring.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utstrsuppt.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utstrtoul64.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\utilities\utxferror.c">
+      <Filter>Acpica Source\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbprint.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\components\tables\tbxfroot.c">
+      <Filter>Acpica Source\Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpidump\apdump.c">
+      <Filter>AcpiDump Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpidump\apfiles.c">
+      <Filter>AcpiDump Source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\source\tools\acpidump\apmain.c">
+      <Filter>AcpiDump Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
